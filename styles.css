@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-.container {
-    width: 562px;
-}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -304,6 +300,10 @@ footer .logo span {
 .verifyContainer .img img {
     width: 90px;
     height: 90px;
+}
+
+.verifyContainer .img img:first-child {
+    margin-right: 15px;
 }
 
 .verifyContainer h3 {
