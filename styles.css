@@ -5,12 +5,6 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
 .container {
     width: 562px;
 }
@@ -27,7 +21,7 @@ header {
 .icon {
     display: flex;
     color: #ffffff;
-    padding: 0 10px;
+    padding: 0 15px;
     text-transform: uppercase;
 }
 
@@ -68,7 +62,7 @@ header {
 }
 
 .title {
-    padding: 16px;
+    padding: 15px;
     font-size: 22px;
     color: rgb(51, 56, 103);
     border-bottom: 2px solid rgb(191, 193, 195);
@@ -101,7 +95,7 @@ main p {
 
 main .item {
     display: flex;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-bottom: 40px;
     border-bottom: 2px solid rgb(191, 193, 195);
     padding-right: 60px;
@@ -167,6 +161,12 @@ main button {
     font-size: 20px;
 }
 
+.blockInfo p {
+    margin-top: 15px;
+    font-size: 28px;
+    color: rgb(51, 51, 51);
+}
+
 .line {
     background-color: rgb(191, 193, 195);
     height: 2px;
@@ -229,3 +229,113 @@ footer .logo span {
     color: #000000;
     font-size: 20px;
 }
+
+.header2page {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.header2page img {
+    max-width: 100%;
+    margin-right: 15px;
+}
+
+.header2page h2 {
+    font-weight: 400;
+}
+
+.cookies {
+    width: 100%;
+    background-color: rgb(213, 232, 243);
+    padding: 15px;
+    border-bottom: 15px solid rgb(0, 108, 86);
+}
+
+.cookies span {
+    color: rgb(51, 51, 51);
+}
+
+.cookies span a {
+    color: rgb(52, 130, 188);
+}
+
+.page2title {
+    padding: 50px 15px 60px;
+    border-bottom: 2px solid rgb(191, 193, 195);
+    margin-bottom: 25px;
+}
+
+.page2title h2 {
+    color: rgb(111, 119, 123);
+    font-weight: 400;
+    font-size: 65px;
+}
+
+.page2title h1 {
+    color: rgb(51, 51, 51);
+    font-size: 65px;
+}
+
+.verify {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.verifyContainer {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 94, 165);
+    border-top: 7px solid rgb(35, 31, 32);
+    margin-bottom: 15px;
+    padding: 50px;
+}
+
+.verifyContainer .img {
+    display: flex;
+}
+
+.verifyContainer .img img {
+    width: 90px;
+    height: 90px;
+}
+
+.verifyContainer h3 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.verifyContainer h3 span {
+    font-weight: 400;
+}
+
+.data {
+    margin-bottom: 30px;
+    line-height: 1.5;
+    padding: 15px;
+}
+
+.data p {
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    margin-bottom: 15px;
+}
+
+.data h1 {
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    margin-bottom: 15px;
+}
+
+.data p a {
+    color: rgb(52, 130, 188);
+}
+
