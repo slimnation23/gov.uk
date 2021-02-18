@@ -416,3 +416,15 @@ footer .logo span {
     max-width: 100px;
 }
 
+.reference {
+    background-color: rgb(40, 161, 151);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: rgb(51, 122, 183);
+    margin: 20px 0;
+}
+
