@@ -413,5 +413,6 @@ footer .logo span {
     background-color: transparent;
     margin-right: 15px;
     width: 100%;
+    max-width: 100px;
 }
 
