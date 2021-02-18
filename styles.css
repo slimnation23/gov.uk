@@ -339,3 +339,47 @@ footer .logo span {
     color: rgb(52, 130, 188);
 }
 
+.inputBlocks {
+    padding: 15px;
+}
+
+.inputBlock h2 {
+    margin-bottom: 10px;
+}
+
+.inputBlock {
+    margin-bottom: 25px;
+}
+
+.inputBlock input[type=text] {
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    max-height: 50px;
+    padding: 15px 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(51, 51, 51);
+    border: 1px solid rgb(191, 193, 195);
+    border-top: 4px solid #000000 !important;
+}
+
+.inputBlock span {
+    color: rgb(111, 119, 123);
+}
+
+.inputBlock form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputBlock select {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    max-height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid rgb(191, 193, 195);
+    color: rgb(51, 51, 51);
+}
+
