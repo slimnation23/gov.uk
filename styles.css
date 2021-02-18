@@ -140,6 +140,12 @@ main button {
     cursor: pointer;
 }
 
+main button a {
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .blockInfo {
     padding: 40px 40px;
     background-color: rgb(222, 224, 226);
