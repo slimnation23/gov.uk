@@ -401,16 +401,6 @@ footer .logo span {
 
 .inputBlock form {
     display: flex;
-    justify-content: space-between;
-}
-
-.cardForm {
-    display: flex;
-    justify-content: flex-start !important;
-}
-
-.cardForm #yearCard {
-    margin-left: 30px;
 }
 
 .inputBlock select {
@@ -418,9 +408,10 @@ footer .logo span {
     border-radius: 5px;
     max-height: 50px;
     padding: 10px;
-    font-size: 20px;
     border: 1px solid rgb(191, 193, 195);
     color: rgb(51, 51, 51);
     background-color: transparent;
+    margin-right: 15px;
+    width: 100%;
 }
 
